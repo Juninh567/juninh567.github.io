@@ -31,3 +31,16 @@
   // Initialize Firebase
 
   const app = initializeApp(firebaseConfig);
+
+import firebase from "firebase/app";
+import "firebase/performance";
+
+// TODO: Replace the following with your app's Firebase project configuration
+// See: https://firebase.google.com/docs/web/learn-more#config-object
+const firebaseConfig = {
+  // ...
+};
+
+
+// Initialize Performance Monitoring and get a reference to the service
+const perf = firebase.performance();
